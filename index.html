@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>basketball scorecard 🏀</title>
+</head>
+<body>
+    <span class="sas">
+        <h1 id="h1id">basketball scorecard 🏀</h1>
+    </span>
+    <div class="main-div">
+        <div class="team1">
+            <div class="team1-top">
+                <h2 id="teams-head">
+                    Team 1
+                </h2>
+                <h1 id="score-1">
+                    0
+                </h1>
+            </div>
+            <div class="team1-bottom">
+                <div class="btn"><button class="btn2" id="btn-11" onclick="increment11()">+1</button></div>
+                <div class="btn"><button class="btn2" id="btn-12"
+                    onclick="increment12()">+2</button></div>
+                <div class="btn"><button class="btn2" id="btn-13"
+                    onclick="increment13()">+3</button></div>
+                
+            </div>
+        </div>
+        <div class="team2">
+            <div class="team2-top">
+                <h2 id="teams-head">
+                    Team 2
+                </h2>
+                <h1 id="score-2">
+                    0
+                </h1>
+            </div>
+            <div class="team2-bottom">
+                <div class="btn"><button class="btn2" id="btn-21"
+                    onclick="increment21()">+1</button></div>
+                <div class="btn"><button class="btn2" id="btn-22"
+                    onclick="increment22()">+2</button></div>
+                <div class="btn"><button class="btn2" id="btn-23"
+                    onclick="increment23()">+3</button></div>
+            </div>
+        </div>
+    </div>
+    <div id="res"> 
+        <button class="btn2" id="res-btn" onclick="resret()">reset</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
